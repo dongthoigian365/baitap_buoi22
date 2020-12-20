@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import TodoApp from './components/index'
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <TodoApp />
+    </>
   )
 }
 
